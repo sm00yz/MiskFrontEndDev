@@ -1,0 +1,23 @@
+@import url("../style/footer.css");
+@import url("../style/header.css");
+@import url("../style/content.css");
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1;
+}
+
+/* applying grid to header main footer */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr; 
+    justify-items: center;
+    align-items: center;
+   
+}
+
+
+
+

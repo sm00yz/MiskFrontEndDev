@@ -1,5 +1,4 @@
-@import url("../style/layoutStyle.css");
-@import url("../fonts/Playball/Playball-Regular.ttf");
+@import url("../style/main.css");
 
 /* main section */
 
@@ -29,13 +28,13 @@
 #section1 a:hover{
     text-decoration: underline;
   }
-.post p, .post-contents p{
+.post p, .post-contents p, blockquote{
     line-break: auto;
     line-height: 2em;
 
 }
 .post-contents h2, .post h2{
-    font-family: 'Playball', cursive;
+    font-family: monospace;
     font-size: 32px;
 }
 .post h1, h3{

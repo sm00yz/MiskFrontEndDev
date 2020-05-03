@@ -1,0 +1,14 @@
+/* main section */
+
+#section1 {
+    background-color: silver;
+}
+#section1 h1, h3, p, blockquote{
+    margin: 0;
+    padding: 0;
+}
+#section1{
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/span 4;
+}
