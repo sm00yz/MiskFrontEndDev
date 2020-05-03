@@ -1,0 +1,85 @@
+@import url("../style/layoutStyle.css");
+@import url("../fonts/Playball/Playball-Regular.ttf");
+
+/* main section */
+
+#section1 {
+    background-color: silver;
+}
+#section1 h1, h3, p{
+    margin: 0;
+    padding: 0;
+}
+#section1 ul{
+    padding-top: 3em;
+    list-style: none;
+    grid-column: 1 /span 3;
+    margin: 0em;
+}
+#section1 ul li{
+    padding: 2em ;
+    margin:0 0 4px 0;
+}
+#section1 ul li p{
+ margin-bottom: 1em;
+}
+#section1 a{
+  text-decoration: none;
+}
+#section1 a:hover{
+    text-decoration: underline;
+  }
+.post p, .post-contents p{
+    line-break: auto;
+    line-height: 2em;
+
+}
+.post-contents h2, .post h2{
+    font-family: 'Playball', cursive;
+    font-size: 32px;
+}
+.post h1, h3{
+    margin: 0;  
+    line-height: 0;
+    text-justify: center;
+    font-weight: bolder;
+}
+.post h3{
+    padding-bottom: 1em;
+}
+.posteven{
+    background: snow;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+/* media bigger than 700px */
+@media(min-width: 700PX){
+   /* .postimg{
+        display: flex;
+        justify-content: space-between;
+    }
+    .imgdiv{
+      width: 400px;
+    }
+    .post-contents{
+        width: 50%;
+    }
+    */
+    #section1 ul li{
+        background-color: white;
+        border-style: ridge;
+    }
+    #section1 ul{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-content: center;
+    }
+    .post{
+        width: 350px;
+    }
+  
+} 
+

@@ -1,0 +1,122 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(../style/layoutStyle.css);
+body{
+    font-size: 100%;
+}
+.post-container{
+    background-color: #ffffff;
+    margin-top: 2em;
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px 50px 2fr 1fr;
+    justify-content: space-around;
+  
+}
+/* post title */
+.posttitle {
+    margin: 0;
+    padding-bottom: 1em;
+    grid-row-start: 1;
+    grid-column: 1/span 5;
+}
+/* author */
+.postauthor{
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 0;
+    grid-area: author;
+    grid-row-start: 2;
+    grid-column: 1/span 5;
+    padding-bottom: 3em;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 80%;
+}
+.name img ,a {
+    padding: 0;
+    margin: 0;
+}
+.name img{
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    padding-right: 7px;
+}
+.name a{
+    text-decoration: none;
+    color: black;
+}
+.date {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    color: rgb(80, 78, 78);
+    font-size: 80%;
+    font-weight: bold;
+
+}
+/* post content */
+
+.postcontent{
+    grid-column: 1/span 5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-align: left;
+}
+.intro, .para{
+    padding-left: 1em;
+}
+ .intro{
+    margin-bottom: 1em;
+}
+
+.subhead{
+    padding-top: 1em;
+    padding-left: 2em;
+    color: black;
+}
+
+.para {
+    padding-top: 1em;
+    color: black;
+}
+
+/* social media */
+.section2{
+    grid-column: 1/ span 5;
+    align-items: center;
+    justify-items: center;
+}
+.socialmedia ul{
+    grid-template-columns: span 2;
+    padding: 0;
+    list-style: none;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.socialmedia ul li{
+    padding: 0;
+    justify-self: center;
+    display: inline-block;
+}
+.socialmedia ul a {
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+}
+
+.social-icon-t:hover{
+    color: rgb(109, 196, 247);
+}
+.social-icon-in:hover{
+    color: rgb(4, 110, 172);
+}
+.social-icon-git:hover{
+    color: rgb(7, 7, 7);
+}
