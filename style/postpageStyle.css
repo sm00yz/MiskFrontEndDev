@@ -1,4 +1,3 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 @import url(../style/main.css);
 body{
     font-size: 100%;
@@ -110,13 +109,11 @@ body{
     text-decoration: none;
     color: rgb(95, 93, 93);
 }
+.socialmedia ul li img{
+    width: 20px;
+    height: 20px;
+}
+.social-icon-t:hover, .social-icon-in:hover, .social-icon-insta:hover{
+    opacity: 0.2;
+}
 
-.social-icon-t:hover{
-    color: rgb(109, 196, 247);
-}
-.social-icon-in:hover{
-    color: rgb(4, 110, 172);
-}
-.social-icon-git:hover{
-    color: rgb(7, 7, 7);
-}
